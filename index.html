@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siham Hamzaoui Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <nav class="nav" id="mainNav">
+        <div class="nav-logo">S · H</div>
+        <div class="nav-links" id="navLinks">
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#cv">CV</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <div class="hero-eyebrow">Portfolio • Web Developer</div>
+            <div class="hero-name">Siham <br><span>Hamzaoui</span></div>
+            <div class="hero-sub">
+                Étudiante en Développement Digital à l’OFPPT CMC Rabat. Passionnée par le développement web et la
+                programmation. À la recherche d’un stage pour développer mes compétences techniques.
+            </div>
+
+            <div class="hero-links">
+                <a class="btn btn-outline" href="https://github.com/siham-hwasalyo" target="_blank"><i
+                        class="ti ti-brand-github"></i> GitHub</a>
+                <a class="btn btn-outline" href="https://www.linkedin.com/in/siham-hamzaoui-6327433bb/"
+                    target="_blank"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+                <a class="btn btn-solid" href="#cv">Download CV</a>
+            </div>
+        </div>
+
+        <div class="hero-photo">
+            <div class="photo-frame-wrap">
+                <div class="photo-frame">
+                    <img src="profil.jpeg" alt="Siham Hamzaoui">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="section-header reveal">
+            <div class="section-label">About Me</div>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="reveal"
+            style="background:#131320;border:1px solid #222;padding:40px;border-radius:14px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;">
+            <div>
+                <div
+                    style="font-family:'Cormorant Garamond',serif;font-size:42px;color:#fff;margin-bottom:20px;line-height:1.2;">
+                    À propos de <span style="color:#c9a96e;">Moi</span>
+                </div>
+
+                <p style="color:#999;line-height:2;font-size:15px;margin-bottom:18px;">
+                    Je suis Siham Hamzaoui, 19 ans, originaire de Salé. J'étudie le développement digital en 1ère année
+                    à la Cité des Métiers et des Compétences (CMC) de Rabat.
+                </p>
+
+                <p style="color:#999;line-height:2;font-size:15px;margin-bottom:18px;">
+                    En deux semestres, j'ai appris le développement front-end, la programmation orientée objet, les
+                    bases de données, et j'ai réalisé plusieurs projets concrets.
+                </p>
+
+                <p style="color:#999;line-height:2;font-size:15px;">
+                    Je suis également passionnée par le dessin et l'entrepreneuriat. En août 2026, j'ai effectué un
+                    stage d'un mois au sein de l'ONCF, une expérience qui m'a permis de découvrir le monde
+                    professionnel et d'appliquer mes compétences dans un environnement réel.
+                </p>
+            </div>
+
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <div
+                    style="width:260px;height:260px;border-radius:20px;overflow:hidden;border:1px solid #c9a96e33;box-shadow:0 0 25px rgba(201,169,110,.15);">
+                    <img src="profil.jpeg" alt="About Siham" style="width:100%;height:100%;object-fit:cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="section-header reveal">
+            <div class="section-label">Experience</div>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="exp-timeline">
+            <div class="exp-item reveal">
+                <div class="exp-marker"></div>
+                <div class="exp-card">
+                    <div class="exp-tag">Événementiel</div>
+                    <div class="exp-header">
+                        <div>
+                            <div class="exp-title">Hôtesse d'accueil — Grands événements sportifs & culturels</div>
+                            <div class="exp-meta">
+                                📍 Stade Moulay Abdellah, Rabat &nbsp;·&nbsp; Espace VIP
+                                <br>
+                                🎤 Mawazine 2026 (3 jours) &nbsp;·&nbsp; ⚽ Match Maroc vs France
+                            </div>
+                        </div>
+                        <div class="exp-logo">VIP</div>
+                    </div>
+
+                    <p class="exp-desc">
+                        Accueil et orientation des spectateurs lors de grands événements accueillis au Stade Moulay
+                        Abdellah, dont les 3 jours du festival Mawazine 2026 et le match Maroc – France. Vérification
+                        des tickets et accompagnement des spectateurs jusqu'à leur place, gestion de la relation
+                        client au sein de l'espace VIP, avec le sens du contact et une présentation professionnelle
+                        en toute circonstance.
+                    </p>
+
+                    <div class="exp-gallery">
+                        <img src="event_hostess_selfie.jpg" alt="Siham en tenue d'hôtesse d'accueil au stade"
+                            onclick="openImgModal('event_hostess_selfie.jpg','Hôtesse d’accueil — Stade Moulay Abdellah')">
+                        <img src="event_stadium_crowd.jpg" alt="Foule d'hôtes et hôtesses au Stade Moulay Abdellah"
+                            onclick="openImgModal('event_stadium_crowd.jpg','Équipe d’accueil — Stade Moulay Abdellah')">
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-item reveal">
+                <div class="exp-marker"></div>
+                <div class="exp-card">
+                    <div class="exp-tag">Stage technique</div>
+                    <div class="exp-header">
+                        <div>
+                            <div class="exp-title">Stage en Développement Digital — ONCF</div>
+                            <div class="exp-meta">
+                                📅 Août 2026 &nbsp;·&nbsp; 📍 ONCF, Agdal – Rabat &nbsp;·&nbsp; Service Développement
+                                Digital
+                                <br>
+                                👤 Encadrant professionnel : Youssef Tami
+                            </div>
+                        </div>
+                        <div class="exp-logo">ONCF</div>
+                    </div>
+
+                    <p class="exp-desc">
+                        Stage d'initiation au sein du Pôle Infrastructure et Circulation de l'ONCF, axé sur le
+                        développement d'applications Python pour le suivi et l'analyse de données de maintenance
+                        ferroviaire. Après une phase de découverte de l'environnement professionnel et du schéma de
+                        circulation, j'ai développé deux applications complètes permettant d'exploiter des fichiers
+                        Excel réels : nettoyage et traitement des données avec Pandas et OpenPyXL, interfaces
+                        graphiques avec Tkinter, visualisations avec Matplotlib et génération de rapports avec
+                        FPDF2.
+                    </p>
+
+                    <div class="exp-projects-note">Les deux projets réalisés sont détaillés ci-dessous, dans la
+                        section Projects.</div>
+
+                    <div class="exp-docs-label">Documents</div>
+                    <div class="exp-docs">
+                        <a class="btn btn-outline btn-doc" href="rapport_stage_oncf.pdf" target="_blank"><i
+                                class="ti ti-file-text"></i> Voir mon rapport de stage</a>
+                        <button class="btn btn-outline btn-doc"
+                            onclick="openImgModal('attestation_stage_oncf.jpg','Attestation de stage — ONCF')"><i
+                                class="ti ti-certificate"></i> Voir mon attestation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="section-header reveal">
+            <div class="section-label">Projects</div>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="proj-grid">
+            <div class="proj-card featured reveal">
+                <div class="proj-badge">Stage ONCF</div>
+                <div class="proj-shots">
+                    <img src="project1_dashboard.png"
+                        alt="Tableau de bord — Analyse des déclenchements LC"
+                        onclick="openImgModal('project1_dashboard.png','Tableau de bord — Analyse des déclenchements LC')">
+                    <img src="project1_detail.png"
+                        alt="Analyse détaillée des sous-stations — LC"
+                        onclick="openImgModal('project1_detail.png','Analyse détaillée des sous-stations — LC')">
+                </div>
+                <div class="proj-title">Analyse des déclenchements des lignes caténaires (LC)</div>
+                <div class="proj-desc">
+                    Application développée durant mon stage ONCF pour analyser les déclenchements des lignes
+                    caténaires à partir d'un fichier Excel. Traitement des données avec Pandas/OpenPyXL, interface
+                    graphique Tkinter, graphiques Matplotlib et export des résultats (Excel/PDF).
+                </div>
+                <div class="proj-result">Sur 1118 déclenchements analysés, la sous-station la plus critique est
+                    Rabat Agdal avec 55 déclenchements.</div>
+                <div class="proj-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">OpenPyXL</span>
+                    <span class="tag">Tkinter</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">Excel</span>
+                </div>
+                <a class="proj-link" href="https://github.com/siham-hwasalyo/ONCF-LC-Analysis.git"
+                    target="_blank">Voir sur GitHub →</a>
+            </div>
+
+            <div class="proj-card featured reveal">
+                <div class="proj-badge">Stage ONCF</div>
+                <div class="proj-shots">
+                    <img src="project2_dashboard.png"
+                        alt="Tableau de bord — Suivi maintenance SST / PS"
+                        onclick="openImgModal('project2_dashboard.png','Tableau de bord — Suivi maintenance SST / PS')">
+                    <img src="project2_charts.png"
+                        alt="Analyse détaillée — SST / PS"
+                        onclick="openImgModal('project2_charts.png','Analyse détaillée — SST / PS')">
+                </div>
+                <div class="proj-title">Suivi et analyse des travaux de maintenance SST / PS</div>
+                <div class="proj-desc">
+                    Application développée durant mon stage ONCF pour le suivi des travaux de maintenance des
+                    sous-stations (SST) et postes de sectionnement (PS). Nettoyage et préparation des données avec
+                    Pandas, calcul d'indicateurs (KPI), tableau de bord avec filtres, graphiques et export
+                    Excel/PDF des résultats.
+                </div>
+                <div class="proj-result">1507 interventions analysées sur 272 SST/PS, pour un total de 5540.1h
+                    d'accès et 5263.9h de travaux (durée moyenne : 210 min).</div>
+                <div class="proj-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">OpenPyXL</span>
+                    <span class="tag">Tkinter</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">Excel</span>
+                </div>
+                <a class="proj-link"
+                    href="https://github.com/siham-hwasalyo/-ONCF-Suivi-des-travaux-de-maintenance-SST-PS.git"
+                    target="_blank">Voir sur GitHub →</a>
+            </div>
+
+            <div class="proj-card featured reveal">
+                <div class="proj-badge">Projet perso</div>
+                <div class="proj-shots">
+                    <img src="mahis_home.png" alt="MAHIS — page catégorie et produits"
+                        onclick="openImgModal('mahis_home.png','MAHIS — Catalogue produits')">
+                    <img src="mahis_hero.png" alt="MAHIS — page d'accueil"
+                        onclick="openImgModal('mahis_hero.png','MAHIS — Page d’accueil')">
+                </div>
+                <div class="proj-title">MAHIS — Site e-commerce cosmétique</div>
+                <div class="proj-desc">
+                    Site e-commerce simulant une boutique en ligne de cosmétiques (Wardah, Kiko, Chanel, Maybelline).
+                    Navigation par marque et par catégorie (skincare, make up, haircare...), fiches produits,
+                    panier dynamique en JavaScript, pages login/inscription, contact et à propos, le tout en
+                    responsive avec Bootstrap 5.
+                </div>
+                <div class="proj-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Bootstrap 5</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <a class="proj-link" href="https://github.com/siham-hwasalyo/ProjetFrent-end.git"
+                    target="_blank">Voir sur GitHub →</a>
+            </div>
+
+            <div class="proj-card reveal">
+                <img class="proj-shot-single" src="pos_system_screenshot.png" alt="Interface du POS System"
+                    onclick="openImgModal('pos_system_screenshot.png','POS System — Interface de vente')">
+                <div class="proj-title">POS System</div>
+                <div class="proj-desc">Point of Sale system developed using JavaScript DOM manipulation with cart
+                    management and automatic total calculation.</div>
+                <div class="proj-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">DOM</span>
+                    <span class="tag">Bootstrap</span>
+                </div>
+                <a class="proj-link" href="https://github.com/siham-hwasalyo/pos-project" target="_blank">View Project
+                    →</a>
+            </div>
+
+            <div class="proj-card reveal">
+                <img class="proj-shot-single" src="pricing_page_screenshot.png" alt="Page de tarification Bootstrap"
+                    onclick="openImgModal('pricing_page_screenshot.png','Pricing Page — Tarification')">
+                <div class="proj-title">Pricing Page (Tarification)</div>
+                <div class="proj-desc">Page de tarification responsive développée avec HTML, CSS et Bootstrap :
+                    navbar avec dropdown, barre de recherche et 3 offres d'abonnement (Gratuit, Pro, Enterprise).
+                </div>
+                <div class="proj-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Bootstrap</span>
+                </div>
+                <a class="proj-link" href="https://github.com/siham-hwasalyo/EFP_projet-" target="_blank">View Project
+                    →</a>
+            </div>
+
+            <div class="proj-card reveal">
+                <img class="proj-shot-single" src="student_mgmt_screenshot.png"
+                    alt="Interface de gestion des stagiaires"
+                    onclick="openImgModal('student_mgmt_screenshot.png','Gestion des Stagiaires — Interface Tkinter')">
+                <div class="proj-title">Student Management</div>
+                <div class="proj-desc">Desktop application developed using Python Tkinter to manage interns and export
+                    data to Excel.</div>
+                <div class="proj-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Tkinter</span>
+                    <span class="tag">Excel</span>
+                </div>
+                <a class="proj-link" href="https://github.com/siham-hwasalyo/ProjetGestionDeStagiere"
+                    target="_blank">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="section-header reveal">
+            <div class="section-label">Skills</div>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-title">Front-end</div>
+                <div class="skill-item">HTML5</div>
+                <div class="skill-item">CSS3</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">JavaScript</div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-title">Back-end</div>
+                <div class="skill-item">PHP</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">POO</div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-title">Tools</div>
+                <div class="skill-item">GitHub</div>
+                <div class="skill-item">Responsive Design</div>
+                <div class="skill-item">Tkinter</div>
+                <div class="skill-item">Excel</div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-title">Data & Analyse</div>
+                <div class="skill-item">Pandas</div>
+                <div class="skill-item">OpenPyXL</div>
+                <div class="skill-item">Matplotlib</div>
+                <div class="skill-item">FPDF2</div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-title">Soft Skills</div>
+                <div class="skill-item">Relation client</div>
+                <div class="skill-item">Travail en équipe</div>
+                <div class="skill-item">Sens du contact</div>
+                <div class="skill-item">Communication</div>
+                <div class="skill-item">Autonomie & rigueur</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="cv">
+        <div class="section-header reveal">
+            <div class="section-label">Resume</div>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="cv-box reveal">
+            <div>
+                <div class="cv-title">Download My CV</div>
+                <div class="cv-text">
+                    You can download my CV to learn more about my education, technical skills, and projects.
+                </div>
+            </div>
+
+            <a class="btn btn-solid" href="CV_Siham_Hamzaoui_v2_4 (5).docx">Download CV</a>
+        </div>
+    </section>
+
+    <div class="footer">
+        © 2026 • Siham Hamzaoui • Portfolio
+    </div>
+
+    <!-- Image viewer modal (attestation + project screenshots) -->
+    <div class="modal-overlay" id="imgModal" onclick="closeImgModal(event)">
+        <div class="modal-box" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeImgModal()">✕</button>
+            <img id="modalImg" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script>
+        // Scroll progress bar
+        var progressBar = document.getElementById('scrollProgress');
+        function updateProgress() {
+            var h = document.documentElement;
+            var scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+            progressBar.style.width = scrolled + '%';
+        }
+        document.addEventListener('scroll', updateProgress, { passive: true });
+        updateProgress();
+
+        // Nav: blurred background once scrolled + mobile hamburger
+        var nav = document.getElementById('mainNav');
+        var navToggle = document.getElementById('navToggle');
+        function updateNavBg() {
+            if (window.scrollY > 30) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        }
+        document.addEventListener('scroll', updateNavBg, { passive: true });
+        updateNavBg();
+
+        navToggle.addEventListener('click', function () {
+            nav.classList.toggle('open');
+        });
+        document.querySelectorAll('.nav-links a').forEach(function (a) {
+            a.addEventListener('click', function () { nav.classList.remove('open'); });
+        });
+
+        // Nav scroll-spy: highlight the link matching the visible section
+        var navLinkEls = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+        var sections = navLinkEls.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+        function updateActiveLink() {
+            var pos = window.scrollY + 110;
+            var current = sections[0];
+            sections.forEach(function (sec) {
+                if (sec && sec.offsetTop <= pos) current = sec;
+            });
+            navLinkEls.forEach(function (a, i) {
+                a.classList.toggle('active', sections[i] === current);
+            });
+        }
+        document.addEventListener('scroll', updateActiveLink, { passive: true });
+        updateActiveLink();
+
+        // Scroll reveal with a light stagger per section
+        var revealGroups = {};
+        document.querySelectorAll('.reveal').forEach(function (el) {
+            var parent = el.closest('section') || el;
+            var key = parent;
+            revealGroups[key] = revealGroups[key] || [];
+            var idx = revealGroups[key].length;
+            el.style.setProperty('--d', Math.min(idx * 0.08, 0.4) + 's');
+        });
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    io.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+        // Image / PDF viewer modal
+        function openImgModal(src, caption) {
+            document.getElementById('modalImg').src = src;
+            document.getElementById('modalImg').alt = caption || '';
+            document.getElementById('modalCaption').textContent = caption || '';
+            document.getElementById('imgModal').classList.add('active');
+        }
+        function closeImgModal(e) {
+            if (e && e.target !== e.currentTarget) return;
+            document.getElementById('imgModal').classList.remove('active');
+        }
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeImgModal();
+        });
+    </script>
+
+</body>
+
+</html>
